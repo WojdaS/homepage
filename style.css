@@ -7,6 +7,7 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 32px auto;
+    padding-top: 50px;
 }
 
 .sectionHeader,
@@ -29,4 +30,66 @@ body {
 .link {
     color: #1a936f;
     text-decoration: none;
+}
+
+.about {
+    position: relative;
+}
+
+/*
+.box,
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+}
+
+.box {
+    z-index: 2;
+    position: fixed;
+}
+
+.box2 {
+    background: blueviolet;
+    top: 30px;
+    right: 60%;
+}
+*/
+
+.top,
+.navigation {
+    position: fixed;
+    background: #fefefe;
+}
+
+.top {
+    bottom: 10px;
+    right: 10px;
+}
+
+.navigation {
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    z-index: 3;
+}
+
+.wojdas {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+.clear {
+    clear: both;
 }
