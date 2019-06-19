@@ -3,6 +3,12 @@ body {
     color: #333;
 }
 
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
 .sectionHeader,
 .diaryHeader {
     color: #1460aa;
