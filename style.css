@@ -1,15 +1,26 @@
 body {
-    background-image: url("jpg/houndstooth-pattern/houndstooth-pattern.png");
+    background-image: url("img/houndstooth-pattern/houndstooth-pattern.png");
+    color: #333;
 }
 
-h1 {
-    color: tomato;
-}
-
-h2 {
+.sectionHeader,
+.diaryHeader {
     color: #1460aa;
 }
 
-p {
-    color: darkblue;
+.header {
+    color: yellow;
+}
+
+.heading {
+    color: #00487c;
+}
+
+.thirdHeader {
+    color: #0496ff;
+}
+
+.link {
+    color: #1a936f;
+    text-decoration: none;
 }
