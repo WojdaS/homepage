@@ -1,4 +1,6 @@
-body {
+body,
+.top,
+.navigation {
     background-image: url("img/houndstooth-pattern/houndstooth-pattern.png");
     color: #333;
 }
@@ -65,7 +67,6 @@ body {
 .top,
 .navigation {
     position: fixed;
-    background: #fefefe;
 }
 
 .top {
