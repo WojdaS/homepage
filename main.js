@@ -1,7 +1,5 @@
-const abcd = document.querySelector('.about');
+let abcd = document.querySelector('.about__paragraph-js');
 
-console.log(abcd);
+console.log(abcd.innerHTML);
 
-const abcde = document.querySelectorAll('p');
-
-console.log(abcde);
+abcd.innerHTML = "Podmiana treści przez JavaScript";
