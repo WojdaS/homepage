@@ -12,9 +12,31 @@ body,
     padding-top: 50px;
 }
 
-.sectionHeader,
+.about {
+    position: relative;
+}
+
+.about__header,
 .diaryHeader {
     color: #1460aa;
+}
+
+.link,
+.about__link {
+    color: #1a936f;
+    text-decoration: none;
+}
+
+.about__paragraph {
+    padding: 16px;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
 }
 
 .header {
@@ -29,14 +51,13 @@ body,
     color: #0496ff;
 }
 
-.link {
+.link,
+.navigation__link {
     color: #1a936f;
     text-decoration: none;
 }
 
-.about {
-    position: relative;
-}
+
 
 /*
 .box,
@@ -81,14 +102,6 @@ body,
     box-sizing: border-box;
     padding: 16px;
     z-index: 3;
-}
-
-.wojdas {
-    width: 100%;
-    max-width: 200px;
-    display: block;
-    float: left;
-    margin: 0 16px 16px 0;
 }
 
 .clear {
