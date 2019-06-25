@@ -1,5 +1,5 @@
 body,
-.top,
+.onTop,
 .navigation {
     background-image: url("img/houndstooth-pattern/houndstooth-pattern.png");
     color: #333;
@@ -17,21 +17,25 @@ body,
 }
 
 .about__header,
-.diaryHeader {
+.diary__header {
     color: #1460aa;
 }
 
-.link,
-.about__link {
+.onTop__link,
+.about__link,
+.day__link,
+.navigation__link {
     color: #1a936f;
     text-decoration: none;
 }
 
-.about__paragraph {
+.about__paragraph,
+.article__paragraph {
     padding: 16px;
 }
 
-.about__picture {
+.about__picture,
+.article__picture {
     width: 100%;
     max-width: 200px;
     display: block;
@@ -43,23 +47,55 @@ body,
     color: yellow;
 }
 
-.heading {
+.header__title {
     color: #00487c;
 }
 
-.thirdHeader {
+.day {
+    padding: 16px;
+}
+
+.day__header {
     color: #0496ff;
+    margin: 0 0 16px;
+    font-size: 20px;
 }
 
-.link,
-.navigation__link {
-    color: #1a936f;
-    text-decoration: none;
+.day__header-sunday {
+    color: darkred;
 }
 
+.day__paragraph,
+.article__paragraph {
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
 
+.onTop,
+.navigation {
+    position: fixed;
+}
 
-/*
+.navigation {
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    z-index: 3;
+}
+
+.onTop {
+    bottom: 10px;
+    right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* test 
 .box,
 .box2 {
     width: 100px;
@@ -84,26 +120,3 @@ body,
     right: 60%;
 }
 */
-
-.top,
-.navigation {
-    position: fixed;
-}
-
-.top {
-    bottom: 10px;
-    right: 10px;
-}
-
-.navigation {
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    z-index: 3;
-}
-
-.clear {
-    clear: both;
-}

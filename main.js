@@ -1,4 +1,4 @@
-let abcd = document.querySelector('.about__paragraph-js');
+let abcd = document.querySelector(".about__paragraph-js");
 
 console.log(abcd.innerHTML);
 
