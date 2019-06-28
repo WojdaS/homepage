@@ -73,17 +73,28 @@ body,
 }
 
 .onTop,
-.navigation {
+.site-header {
     position: fixed;
 }
 
-.navigation {
+.site-header {
     top: 0;
     left: 0;
     width: 100%;
     box-sizing: border-box;
     padding: 16px;
     z-index: 3;
+}
+
+.navigation {}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__item {
+    display: inline;
 }
 
 .onTop {
