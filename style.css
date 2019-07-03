@@ -8,9 +8,7 @@ html {
     box-sizing: inherit;
 }
 
-body,
-.onTop,
-.site-header {
+body {
     background: linear-gradient(to right, #f2994a, #f2c94c);
     color: #333;
 }
@@ -85,6 +83,7 @@ body,
 .onTop,
 .site-header {
     position: fixed;
+    background: #f2984ae0
 }
 
 .site-header {
@@ -100,17 +99,15 @@ body,
 
 .navigation__list {
     display: flex;
-    align-items: center;
-    width: 100%;
     justify-content: center;
     list-style: none;
     padding: 0;
 }
 
 .navigation__item {
-    display: flex;
-    justify-content: center;
-    width: 25%;
+    display: block;
+    margin: 0 16px;
+
 }
 
 .onTop {
