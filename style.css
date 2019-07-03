@@ -99,12 +99,22 @@ body,
 
 
 .navigation__list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
     list-style: none;
     padding: 0;
 }
 
 .navigation__item {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.navigation__link {
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .onTop {
